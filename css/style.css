@@ -784,7 +784,8 @@ body {
       @media (max-width: 1350px) {
         .tour-left-form {
           margin-bottom: 2.5rem;
-          display: block; } }
+          display: flex;
+          flex-direction: column;} }
       @media (max-width: 900px) {
         .tour-left-form {
           margin-bottom: 0; } }
