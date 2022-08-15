@@ -804,6 +804,9 @@ body {
       .tour-buton {
         display: block; } }
     @media (max-width: 1350px) {
+      .tour-buton:first-child {
+        margin-top: 1.5rem
+      }
       .tour-buton:not(.tour-buton:last-child) {
         margin-bottom: 1.5rem; } }
     .tour-buton_input {
